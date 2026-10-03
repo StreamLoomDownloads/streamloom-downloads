@@ -92,6 +92,24 @@ small{color:var(--muted)}
     <p>No install needed. Works on any phone, tablet or computer.</p>
     <a class="btn" href="https://streamloom.softarchium.com">Open Streamloom Web</a>
   </section>
+  <p id="visitors" style="text-align:center;opacity:.7;font-size:.85rem" hidden></p>
 </main>
+<script>
+// Counts one visit per browser session; the count is shown once the service replies.
+(function () {
+  var base = "https://abacus.jasoncameron.dev";
+  var counted = false;
+  try { counted = sessionStorage.getItem("sl-counted") === "1"; } catch (e) {}
+  fetch(base + (counted ? "/get" : "/hit") + "/streamloomdownloads/visits")
+    .then(function (r) { return r.json(); })
+    .then(function (d) {
+      try { sessionStorage.setItem("sl-counted", "1"); } catch (e) {}
+      var el = document.getElementById("visitors");
+      el.textContent = Number(d.value).toLocaleString() + " visitors";
+      el.hidden = false;
+    })
+    .catch(function () {});
+})();
+</script>
 </body>
 </html>
