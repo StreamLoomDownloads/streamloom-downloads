@@ -15,19 +15,31 @@ Prefer Play Store updates? You need the Google account you use on your phone.
 
 Play updates arrive automatically. A copy installed from Play can't be updated by the direct downloads below, and the other way round, so stick to one.
 
-## 2. Fire TV, Fire Stick, Android TV
+## 2. Fire TV, Fire Stick
 
-Not using Google Play? On a TV, install with the free **Downloader** app.
+Not using the Amazon Appstore? Install with the free **Downloader** app.
+
+1. Install **Downloader** (orange icon) from your Fire TV's app store.
+2. Open *Settings → My Fire TV → Developer options → Install unknown apps* and turn on Downloader.
+3. Open Downloader, enter the code **`2842855`**, then choose *Go*.
+4. When the download finishes, choose *Install*, then *Open*.
+
+Code not working? In Downloader's address box, type:
+`https://github.com/StreamLoomDownloads/streamloom-downloads/releases/download/stable/streamloom-firetv.apk`
+
+## 3. Android TV
+
+Not using Google Play? Install with the free **Downloader** app.
 
 1. Install **Downloader** (orange icon) from your TV's app store.
-2. **Fire TV:** open *Settings → My Fire TV → Developer options → Install unknown apps* and turn on Downloader. **Android TV:** when asked, allow Downloader to install apps from this source.
+2. When asked, allow Downloader to install apps from this source.
 3. Open Downloader, enter the code **`3316691`**, then choose *Go*.
 4. When the download finishes, choose *Install*, then *Open*.
 
 Code not working? In Downloader's address box, type:
 `https://github.com/StreamLoomDownloads/streamloom-downloads/releases/download/stable/streamloom.apk`
 
-## 3. Android phone or tablet
+## 4. Android phone or tablet
 
 Not using Google Play? Download the app directly.
 
