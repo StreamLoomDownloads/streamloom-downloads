@@ -56,6 +56,6 @@ Play installs update on their own. For a direct download, install the newest fil
 - **"App not installed":** make sure you have a little free space, and uninstall any older copy that came from somewhere else, then try again.
 - **Can't find Downloader:** search for it by name in your TV's app store.
 
-## 4. Watch in your browser
+## 5. Watch in your browser
 
 No install needed. Works on any phone, tablet or computer: **[streamloom.softarchium.com](https://streamloom.softarchium.com)**
